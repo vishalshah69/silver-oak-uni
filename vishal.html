@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<h2>The focus() and blur() Methods</h2>
+
+<input type="text" id="myText" value="write here"><br> <br>
+
+<button type="button" onclick="getFocus()">Get focus</button>
+<button type="button" onclick="loseFocus()">Lose focus</button>
+
+<script>
+function getFocus() {
+    document.getElementById("myText").focus();
+    document.getElementById("myText").style.backgroundColor="aqua";
+  
+}
+
+function loseFocus() {
+    document.getElementById("myText").style.backgroundColor="white";
+    document.getElementById("myText").blur();
+}
+</script>
+
+</body>
+</html>
