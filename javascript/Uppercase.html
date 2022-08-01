@@ -1,0 +1,14 @@
+<html>
+<body>
+
+  <h2>The DOM Elements</h2>  
+    Enter your name: <input type="text" id="fname" onchange="upparcase()">
+    <p>Convert let to be uppercase</p>
+    <script>
+        function upparcase() {
+            const x = document.getElementById("fname");
+            x.value = x.value.toUpperCase();
+        }
+    </script>
+</body>
+</html>
