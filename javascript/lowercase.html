@@ -1,0 +1,14 @@
+<html>
+<body>
+
+  <h2>The DOM Elements</h2>  
+    Enter your name: <input type="text" id="fname" onchange="lowercase()">
+    <p>Convert let to be lowercase</p>
+    <script>
+        function lowercase() {
+            const x = document.getElementById("fname");
+            x.value = x.value.toLowerCase();
+        }
+    </script>
+</body>
+</html>
